@@ -1,23 +1,18 @@
 .site-nav{
     display: flex;
     justify-content: center;
+    margin-block-start: 4em;
+    margin-inline-start: 45em;
     a{
         text-decoration: none;
         text-emphasis: none;
-        padding: 1.25%;
+        padding: 1.3% 3%;
         color: black;
-        border-radius: 6px;
-        transition: ease-in-out 0.2s;
-        margin: 0 1%;
+        transition: ease-in-out 0.4s;
+        font-size: 2rem;
         &:hover{
             color: white;
             background-color: black;
-            animation: glow .75s infinite;
-            @keyframes glow {
-                0% {color: #a7a0a0; text-shadow: 0px 0px 5px white;}
-                50% {color: white;}
-                100% {color: #a7a0a0; text-shadow: 0px 0px 5px white;}
-            }  
         }
     }
 }

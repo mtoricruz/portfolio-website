@@ -14,24 +14,16 @@ export default function App() {
         <NavBar />
       </div>
       <section className='header-container'>
-        <div>
           <Header />
-        </div>
       </section>
-      <section id='about-me-container'>
-        <div>
+      <section id='about-me' className='about-me-section'>
           <AboutMe />
-        </div>
       </section>
-      <section id='projects-container'>
-        <div>
+      <section id='projects' className='projects-section'>
           <Projects />
-        </div>
       </section>
-      <section id='links-container'>
-        <div>
+      <section id='links' className='links-section'>
           <Links />
-        </div>
       </section>
     </div>
   );

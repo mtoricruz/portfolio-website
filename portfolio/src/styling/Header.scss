@@ -1,0 +1,17 @@
+section.header-container{
+    margin-block-end: 10%;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 10em;
+    h1{
+        font-size: 5rem;
+        font-weight: 400;
+        margin-block-end: 0;
+    }
+    span{
+        font-size: 3rem;
+    }
+}
