@@ -3,6 +3,9 @@ import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Links from './components/Links';
+import Header from './components/Header';
+
+import './styling/App.scss'
 
 export default function App() {
   return (
@@ -10,15 +13,26 @@ export default function App() {
       <div id='nav-bar-container'>
         <NavBar />
       </div>
-      <div id='about-me-container'>
-        <AboutMe />
-      </div>
-      <div id='projects-container'>
-        <Projects />
-      </div>
-      <div id='links-container'>
-        <Links />
-      </div>
+      <section className='header-container'>
+        <div>
+          <Header />
+        </div>
+      </section>
+      <section id='about-me-container'>
+        <div>
+          <AboutMe />
+        </div>
+      </section>
+      <section id='projects-container'>
+        <div>
+          <Projects />
+        </div>
+      </section>
+      <section id='links-container'>
+        <div>
+          <Links />
+        </div>
+      </section>
     </div>
   );
 }
