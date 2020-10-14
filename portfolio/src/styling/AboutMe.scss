@@ -1,5 +1,36 @@
 section.about-me-section{
     background-color: black;
     color: white;
-    padding: 5% 0;
+}
+
+.about-me-div{
+    display: flex;
+    flex-direction: column;
+    // ======== About Me Box styling==============
+    .about-me-box{
+        h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+        transition: ease-in-out 0.5s;
+        &:hover{
+            background-color: white;
+            color: black;
+            transition: ease-in-out 0.5s;
+            // ======== Growing Up bio styling==============
+            &.growing-up{
+                h1{
+                    display: none;
+                }
+                p{
+                    opacity: 1 !important;
+                }
+            }
+            // ======== Before Coding bio styling==============
+            // ======== My Journey bio styling==============
+            // ======== Personal Interests bio styling==============
+
+        }
+        padding: 5% 0;
+    }
 }

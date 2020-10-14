@@ -12,8 +12,7 @@ export default function Header(){
             typeSpeed: 55,
             backSpeed: 45,
             backDelay: 700,
-            loop: true,
-            loopCount: 3
+            loop: false
         };  
         const typed = new Typed(typeTarget.current, options);
 
