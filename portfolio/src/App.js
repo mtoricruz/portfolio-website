@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Links from './components/Links';
 import Header from './components/Header';
+import ContactMe from './components/ContactMe';
 
 import './styling/App.scss'
 
@@ -14,16 +15,19 @@ export default function App() {
         <NavBar />
       </div>
       <section className='header-container'>
-          <Header />
+        <Header />
       </section>
       <section id='about-me' className='about-me-section'>
-          <AboutMe />
+        <AboutMe />
       </section>
       <section id='projects' className='projects-section'>
-          <Projects />
+        <Projects />
       </section>
       <section id='links' className='links-section'>
-          <Links />
+        <Links />
+      </section>
+      <section id='contact-me' className='contact-me-section'>
+        <ContactMe />
       </section>
     </div>
   );

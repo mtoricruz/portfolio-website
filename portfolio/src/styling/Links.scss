@@ -1,5 +1,54 @@
-section.links-section{
+.links-div{
+    display: flex;
+    justify-content: space-evenly;
     background-color: black;
-    color: white;
-    padding: 5% 0;
+    text-align: center;
+    .github{
+        padding: 5% 9%;
+        .fa-github{
+            color: white;
+        }
+        &:hover{
+            background-color: white;
+            .fa-github{
+                color: black;
+            }
+        }
+    }
+    .linkedin{
+        padding: 5% 9%;
+        .fa-linkedin-in{
+            color: white;
+        }
+        &:hover{
+            background-color: white;
+            .fa-linkedin-in{
+                color: black;
+            }
+        }
+    }
+    .blog{
+        padding: 5% 9%;
+        .fa-blogger-b{
+            color: white;
+        }
+        &:hover{
+            background-color: white;
+            .fa-blogger-b{
+                color: black;
+            }
+        }
+    }
+    .email{
+        padding: 5% 9%;
+        .fa-envelope{
+            color: white;
+        }
+        &:hover{
+            background-color: white;
+            .fa-envelope{
+                color: black;
+            }
+        }
+    }
 }
