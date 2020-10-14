@@ -9,8 +9,8 @@ export default function Header(){
     useEffect(() => {
         var options = { 
             stringsElement: '#typed-js',
-            typeSpeed: 55,
-            backSpeed: 45,
+            typeSpeed: 50,
+            backSpeed: 42,
             backDelay: 700,
             loop: false
         };  
@@ -28,10 +28,10 @@ export default function Header(){
                 <span id='bio' ref={typeTarget}/>
             </div>
             <div id='typed-js'>
-                <p>I'm a Lambda School Alumni</p>
-                <p>I'm a software engineer</p>
-                <p>I love to skateboard, play video games and discover new music</p>
-                <p>and I love to code</p>
+                <p>I'm a Lambda School Alumni </p>
+                <p>I'm a Software Engineer</p>
+                <p>I love to learn about mortgages, skateboard when the sun is out</p>
+                <p>and I love to code ◠◡◠</p>
             </div>
         </div>
     )

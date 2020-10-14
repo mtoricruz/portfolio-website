@@ -1,54 +1,71 @@
 .links-div{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: white;
     text-align: center;
     .github{
         padding: 5% 9%;
         .fa-github{
-            color: white;
+            color: black;
         }
         &:hover{
-            background-color: white;
+            background-color: black;
             .fa-github{
-                color: black;
+                color: white;
             }
         }
     }
     .linkedin{
         padding: 5% 9%;
         .fa-linkedin-in{
-            color: white;
+            color: black;
         }
         &:hover{
-            background-color: white;
+            background-color: black;
             .fa-linkedin-in{
-                color: black;
+                color: white;
             }
         }
     }
     .blog{
         padding: 5% 9%;
         .fa-blogger-b{
-            color: white;
+            color: black;
         }
         &:hover{
-            background-color: white;
+            background-color: black;
             .fa-blogger-b{
-                color: black;
+                color: white;
             }
         }
     }
     .email{
         padding: 5% 9%;
         .fa-envelope{
-            color: white;
+            color: black;
         }
         &:hover{
-            background-color: white;
+            background-color: black;
             .fa-envelope{
-                color: black;
+                color: white;
             }
         }
+    }
+}
+
+.links-h1{
+    margin-inline-end: 4em;
+    background-color: black;
+    color: white;
+    padding: 1% 10%;
+    text-align: left;
+    font-size: 40px;
+    & h1{
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    transition: ease-in-out 1s;
+    &:hover{
+        margin-inline-end: 0;
     }
 }
