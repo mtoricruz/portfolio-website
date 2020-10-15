@@ -4,7 +4,8 @@
     background-color: white;
     text-align: center;
     .github{
-        padding: 5% 9%;
+        padding: 5% 9vw;
+        transition: ease-in-out .3s;
         .fa-github{
             color: black;
         }
@@ -16,7 +17,8 @@
         }
     }
     .linkedin{
-        padding: 5% 9%;
+        padding: 5% 9vw;
+        transition: ease-in-out .3s;
         .fa-linkedin-in{
             color: black;
         }
@@ -28,7 +30,9 @@
         }
     }
     .blog{
-        padding: 5% 9%;
+        padding: 5% 9vw;
+        transition: ease-in-out .3s;
+
         .fa-blogger-b{
             color: black;
         }
@@ -40,7 +44,8 @@
         }
     }
     .email{
-        padding: 5% 9%;
+        padding: 5% 9vw;
+        transition: ease-in-out .3s;
         .fa-envelope{
             color: black;
         }

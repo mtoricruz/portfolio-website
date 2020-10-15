@@ -5,8 +5,7 @@ export default function Links(){
     return(
         <div>
             <div className='links-h1'>
-
-            <h1>Links</h1>
+                <h1>Links</h1>
             </div>
             <div className='links-div'>
                 <div className='github'>
