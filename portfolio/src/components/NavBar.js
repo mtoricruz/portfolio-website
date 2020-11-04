@@ -7,7 +7,7 @@ export default function NavBar(){
             <a href='#about-me'>About Me</a>
             <a href='#projects'>Projects</a>
             <a href='#links'>Links</a>
-            <a href='#'>Contact Me</a>
+            <a href='#links'>Contact Me</a>
         </div>
     )
 }

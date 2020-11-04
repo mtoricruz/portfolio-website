@@ -41,7 +41,7 @@ export default function Links(){
                         target='_blank' 
                         rel='noopener noreferrer'
                     >
-                        <i class="fas fa-envelope fa-10x"></i>
+                        <i className="fas fa-envelope fa-10x"></i>
                     </a>
                 </div>
             </div>
