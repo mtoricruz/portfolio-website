@@ -5,10 +5,15 @@ import Projects from './components/Projects';
 import Links from './components/Links';
 import Header from './components/Header';
 import ContactMe from './components/ContactMe';
+import Technologies from './components/Technologies';
 
-import './styling/App.scss'
+import 'antd/dist/antd.less';
+import { BackTop } from 'antd';
+import './styling/App.scss';
+
 
 export default function App() {
+
   return (
     <div className='app-container'>
       <div id='nav-bar-container'>
@@ -19,6 +24,9 @@ export default function App() {
       </section>
       <section id='about-me' className='about-me-section'>
         <AboutMe />
+      </section>
+      <section id='technologies' className='technologies'>
+        <Technologies />
       </section>
       <section id='projects' className='projects-section'>
         <Projects />

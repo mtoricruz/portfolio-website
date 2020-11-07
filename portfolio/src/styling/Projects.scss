@@ -1,9 +1,9 @@
 .projects-h1{
-    margin-inline-start: 4em;
+    margin-inline-end: 4em;
     background-color: black;
     color: white;
     padding: 1% 10%;
-    text-align: right;
+    text-align: left;
     font-size: 40px;
     & h1{
         margin-block-start: 0;
@@ -11,7 +11,8 @@
     }
     transition: ease-in-out 1s;
     &:hover{
-        margin-inline-start: 0;
+        margin-inline-end: 0 !important;
+        padding-inline-start: 15%;
     }
 }
 
