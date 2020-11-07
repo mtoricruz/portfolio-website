@@ -25,14 +25,14 @@ export default function App() {
       <section id='about-me' className='about-me-section'>
         <AboutMe />
       </section>
-      <section id='technologies' className='technologies'>
-        <Technologies />
-      </section>
       <section id='projects' className='projects-section'>
         <Projects />
       </section>
       <section id='links' className='links-section'>
         <Links />
+      </section>
+      <section id='technologies' className='technologies'>
+        <Technologies />
       </section>
       <section id='contact-me' className='contact-me-section'>
         <ContactMe />
