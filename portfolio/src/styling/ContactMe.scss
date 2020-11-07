@@ -1,0 +1,68 @@
+.contact-me-h1{
+    margin-inline-end: 4em;
+    background-color: black;
+    color: white;
+    padding: 1% 10%;
+    text-align: left;
+    font-size: 40px;
+    & h1{
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    transition: ease-in-out 1s;
+    &:hover{
+        margin-inline-end: 0 !important;
+        padding-inline-start: 15%;
+    }
+}
+
+
+.get-in-touch p{
+    font-size: 35px;
+    margin-inline-start: 8.5vw;
+    margin-inline-end: 8.5vw;
+    text-align: center;
+    &.first-line{
+        font-weight: bold;
+    }
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    & .linkedin{
+        padding: 2vh 0;
+        margin: 2%;
+        margin-inline-start: 40%;
+        margin-inline-end: 40%;
+        transition: ease-in-out .3s;
+        border-radius: 20px;
+        .fa-linkedin-in{
+            color: black;
+        }
+        &:hover{
+            background-color: black;
+            .fa-linkedin-in{
+                color: white;
+            }
+        }
+    }
+    & .email{
+        padding: 2vh 0;
+        margin: 2%;
+        margin-inline-start: 40%;
+        margin-inline-end: 40%;
+        transition: ease-in-out .3s;
+        border-radius: 20px;
+        .fa-envelope{
+            color: black;
+        }
+        &:hover{
+            background-color: black;
+            .fa-envelope{
+                color: white;
+            }
+        }
+    }
+}
